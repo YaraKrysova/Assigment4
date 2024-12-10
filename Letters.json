@@ -1,0 +1,802 @@
+[
+    {
+        "id": 1,
+        "first_name": "Ava",
+        "last_name": "Martinez",
+        "toys": [
+            {
+                "name": "Walkie Talkies",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Walkie Talkies."
+            },
+            {
+                "name": "American Girl Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called American Girl Doll."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 2,
+        "first_name": "Liam",
+        "last_name": "Williams",
+        "toys": [
+            {
+                "name": "Jump Rope",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Jump Rope."
+            },
+            {
+                "name": "Tonka Truck",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Tonka Truck."
+            },
+            {
+                "name": "Walkie Talkies",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Walkie Talkies."
+            },
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 3,
+        "first_name": "Mason",
+        "last_name": "Hernandez",
+        "toys": [
+            {
+                "name": "Barbie",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Barbie."
+            },
+            {
+                "name": "Jump Rope",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Jump Rope."
+            },
+            {
+                "name": "Building Blocks",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Building Blocks."
+            },
+            {
+                "name": "Puzzle Set",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Puzzle Set."
+            },
+            {
+                "name": "Stuffed Unicorn",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Unicorn."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 4,
+        "first_name": "Mason",
+        "last_name": "Jones",
+        "toys": [
+            {
+                "name": "Monster Truck",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Monster Truck."
+            },
+            {
+                "name": "Karaoke Microphone",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Karaoke Microphone."
+            },
+            {
+                "name": "Kids' Smartwatch",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Smartwatch."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 5,
+        "first_name": "Ava",
+        "last_name": "Johnson",
+        "toys": [
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            },
+            {
+                "name": "Tonka Truck",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Tonka Truck."
+            },
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            },
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            },
+            {
+                "name": "Karaoke Microphone",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Karaoke Microphone."
+            },
+            {
+                "name": "Soccer Ball",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Soccer Ball."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 6,
+        "first_name": "Sophia",
+        "last_name": "Martinez",
+        "toys": [
+            {
+                "name": "Walkie Talkies",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Walkie Talkies."
+            },
+            {
+                "name": "Math Flash Cards",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Math Flash Cards."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 7,
+        "first_name": "Liam",
+        "last_name": "Johnson",
+        "toys": [
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            },
+            {
+                "name": "Stuffed Unicorn",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Unicorn."
+            },
+            {
+                "name": "Science Kit",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Science Kit."
+            },
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            },
+            {
+                "name": "Puzzle Set",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Puzzle Set."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 8,
+        "first_name": "Logan",
+        "last_name": "Jones",
+        "toys": [
+            {
+                "name": "Math Flash Cards",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Math Flash Cards."
+            },
+            {
+                "name": "Kids' Smartwatch",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Smartwatch."
+            },
+            {
+                "name": "Barbie",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Barbie."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 9,
+        "first_name": "Mia",
+        "last_name": "Martinez",
+        "toys": [
+            {
+                "name": "American Girl Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called American Girl Doll."
+            },
+            {
+                "name": "Jump Rope",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Jump Rope."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 10,
+        "first_name": "Isabella",
+        "last_name": "Miller",
+        "toys": [
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            },
+            {
+                "name": "Electronic Pet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Electronic Pet."
+            },
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 11,
+        "first_name": "Noah",
+        "last_name": "Miller",
+        "toys": [
+            {
+                "name": "Polly Pocket",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Polly Pocket."
+            },
+            {
+                "name": "Electronic Pet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Electronic Pet."
+            },
+            {
+                "name": "Hot Wheels Car",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Hot Wheels Car."
+            },
+            {
+                "name": "Electronic Pet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Electronic Pet."
+            },
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            },
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 12,
+        "first_name": "Liam",
+        "last_name": "Hernandez",
+        "toys": [
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            },
+            {
+                "name": "Stuffed Unicorn",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Unicorn."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            },
+            {
+                "name": "RC Helicopter",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called RC Helicopter."
+            },
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 13,
+        "first_name": "Amelia",
+        "last_name": "Davis",
+        "toys": [
+            {
+                "name": "Walkie Talkies",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Walkie Talkies."
+            },
+            {
+                "name": "Karaoke Microphone",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Karaoke Microphone."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            },
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            },
+            {
+                "name": "Science Kit",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Science Kit."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 14,
+        "first_name": "Ethan",
+        "last_name": "Hernandez",
+        "toys": [
+            {
+                "name": "Math Flash Cards",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Math Flash Cards."
+            },
+            {
+                "name": "Jump Rope",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Jump Rope."
+            },
+            {
+                "name": "Plush Dog",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Dog."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 15,
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "toys": [
+            {
+                "name": "American Girl Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called American Girl Doll."
+            },
+            {
+                "name": "Basketball",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Basketball."
+            },
+            {
+                "name": "Monster Truck",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Monster Truck."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 16,
+        "first_name": "Logan",
+        "last_name": "Hernandez",
+        "toys": [
+            {
+                "name": "Plush Dog",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Dog."
+            },
+            {
+                "name": "Karaoke Microphone",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Karaoke Microphone."
+            },
+            {
+                "name": "Science Kit",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Science Kit."
+            },
+            {
+                "name": "Stuffed Unicorn",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Unicorn."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 17,
+        "first_name": "Ava",
+        "last_name": "Jones",
+        "toys": [
+            {
+                "name": "Soccer Ball",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Soccer Ball."
+            },
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            },
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            },
+            {
+                "name": "Skateboard",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Skateboard."
+            },
+            {
+                "name": "Teddy Bear",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Teddy Bear."
+            },
+            {
+                "name": "Plush Dog",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Dog."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 18,
+        "first_name": "Mia",
+        "last_name": "Brown",
+        "toys": [
+            {
+                "name": "RC Helicopter",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called RC Helicopter."
+            },
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 19,
+        "first_name": "Sophia",
+        "last_name": "Martinez",
+        "toys": [
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            },
+            {
+                "name": "Building Blocks",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Building Blocks."
+            },
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            },
+            {
+                "name": "Math Flash Cards",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Math Flash Cards."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 20,
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "toys": [
+            {
+                "name": "Jump Rope",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Jump Rope."
+            },
+            {
+                "name": "Basketball",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Basketball."
+            },
+            {
+                "name": "Science Kit",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Science Kit."
+            },
+            {
+                "name": "Plush Dog",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Dog."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 21,
+        "first_name": "Liam",
+        "last_name": "Miller",
+        "toys": [
+            {
+                "name": "Plush Cat",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Cat."
+            },
+            {
+                "name": "Karaoke Microphone",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Karaoke Microphone."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 22,
+        "first_name": "Amelia",
+        "last_name": "Garcia",
+        "toys": [
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            },
+            {
+                "name": "Interactive Globe",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Interactive Globe."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 23,
+        "first_name": "Ethan",
+        "last_name": "Jones",
+        "toys": [
+            {
+                "name": "Jump Rope",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Jump Rope."
+            },
+            {
+                "name": "Plush Dog",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Plush Dog."
+            }
+        ],
+        "approved": true
+    },
+    {
+        "id": 24,
+        "first_name": "Mason",
+        "last_name": "Smith",
+        "toys": [
+            {
+                "name": "Stuffed Dinosaur",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Dinosaur."
+            },
+            {
+                "name": "Stuffed Unicorn",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Unicorn."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 25,
+        "first_name": "Logan",
+        "last_name": "Smith",
+        "toys": [
+            {
+                "name": "Kids' Smartwatch",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Smartwatch."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 26,
+        "first_name": "Ethan",
+        "last_name": "Davis",
+        "toys": [
+            {
+                "name": "Soccer Ball",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Soccer Ball."
+            },
+            {
+                "name": "Teddy Bear",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Teddy Bear."
+            },
+            {
+                "name": "RC Helicopter",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called RC Helicopter."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 27,
+        "first_name": "Noah",
+        "last_name": "Hernandez",
+        "toys": [
+            {
+                "name": "LOL Surprise Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called LOL Surprise Doll."
+            },
+            {
+                "name": "Barbie",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Barbie."
+            },
+            {
+                "name": "Polly Pocket",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Polly Pocket."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 28,
+        "first_name": "Ethan",
+        "last_name": "Jones",
+        "toys": [
+            {
+                "name": "LEGO Race Car",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called LEGO Race Car."
+            },
+            {
+                "name": "Science Kit",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Science Kit."
+            },
+            {
+                "name": "Karaoke Microphone",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Karaoke Microphone."
+            },
+            {
+                "name": "Frisbee",
+                "category": "Sports",
+                "description": "A fun and popular sports toy called Frisbee."
+            },
+            {
+                "name": "Tonka Truck",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Tonka Truck."
+            }
+        ],
+        "approved": null
+    },
+    {
+        "id": 29,
+        "first_name": "Ava",
+        "last_name": "Miller",
+        "toys": [
+            {
+                "name": "Baby Alive",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Baby Alive."
+            },
+            {
+                "name": "RC Helicopter",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called RC Helicopter."
+            },
+            {
+                "name": "Monster Truck",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called Monster Truck."
+            },
+            {
+                "name": "Kids' Tablet",
+                "category": "Electronics",
+                "description": "A fun and popular electronics toy called Kids' Tablet."
+            },
+            {
+                "name": "American Girl Doll",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called American Girl Doll."
+            }
+        ],
+        "approved": false
+    },
+    {
+        "id": 30,
+        "first_name": "Logan",
+        "last_name": "Williams",
+        "toys": [
+            {
+                "name": "Stuffed Unicorn",
+                "category": "Plush Toys",
+                "description": "A fun and popular plush toys toy called Stuffed Unicorn."
+            },
+            {
+                "name": "LEGO Race Car",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called LEGO Race Car."
+            },
+            {
+                "name": "Baby Alive",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Baby Alive."
+            },
+            {
+                "name": "Polly Pocket",
+                "category": "Dolls",
+                "description": "A fun and popular dolls toy called Polly Pocket."
+            },
+            {
+                "name": "Math Flash Cards",
+                "category": "Educational",
+                "description": "A fun and popular educational toy called Math Flash Cards."
+            },
+            {
+                "name": "LEGO Race Car",
+                "category": "Vehicles",
+                "description": "A fun and popular vehicles toy called LEGO Race Car."
+            }
+        ],
+        "approved": false
+    }
+]
