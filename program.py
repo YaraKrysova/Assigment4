@@ -1,5 +1,17 @@
-import json 
+import json
 
-with open("Letters.json" , "r") as f:
-    letters = json.load(f)
-# Assigment4
+
+class Program:
+    def __init__(self):
+        self.letters = []
+
+class Letter:
+    pass
+
+
+class Toy:
+    pass
+
+
+
+
