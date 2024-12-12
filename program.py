@@ -15,8 +15,34 @@ class Toy:
         }
 
 class Letter:
-    pass
+    def __init__(self, id, firstName, lastName, toys, approved = None):
+        self._id = id
+        self._firstName = firstName
+        self._lastName = lastName
+        self._toys = [Toy(**toy) for toy in toys] #list of dictionaries
+        self._approved = approved
 
+    def childDict(self):
+        return {
+            "Letter ID": self._id,
+            "Full Name": f"{self._firstName} {self._lastName}",
+            "Nice": ""
+        }
+    
+    def getApproval(self, approvalStatus):
+        self._approved = approvalStatus
+
+    def getJson(self):
+        return {
+            "id": self._id,
+            "first_name": self._firstName,
+            "last_name": self._lastName,
+            "toys": [toy.turnIntoDict() for toy in self._toys],
+            "approved": self._approved
+        }       #returning a dictionary representation of its attribute
+    
+    def getToys(self):
+        return [toy.turnIntoDict() for toy in self._toys]
 
 class Program:
     pass
