@@ -1,5 +1,10 @@
 import json
 import csv
+from datetime import datetime
+
+def log_action(action):
+    with open("ProgramLog.txt", "a") as log_file:
+        log_file.write(f"{datetime.now()} - {action}\n")
 
 class Toy:
     def __init__(self, name, category, description):
@@ -55,6 +60,7 @@ class Program:
             with open("Letters.json", "r") as file:
                 data = json.load(file)
                 self._letters = [Letter(**entry) for entry in data]
+                log_action("Opened letter data")
                 
         except Exception as e:
             print(f"Error reading file: {e}")
@@ -64,7 +70,8 @@ class Program:
         try:
             with open("Letters.json", "w") as file:
                 json.dump([letter.getJson() for letter in self._letters], file, indent=4)
-                
+                log_action("Saved letter data")
+
         except Exception as e:
             print(f"Error saving letter data: {e}")
 
@@ -78,18 +85,20 @@ class Program:
                     if letter:
                         letter.getApproval(row["Nice"].strip().lower() == "true")
             self.saveLetterData()
+            log_action("Imported children data")
         except Exception as e:
-            print(f"Error importing children data: {e}. HO-HO-HO, seems like this kid doesn't exist")
+            print(f"HO-HO-HO *Santa Claus noises*, seems like this kid doesn't exist")
 
 
     def exportToyManufacturingData(self):
         try:
-            with open("RequestedToys.csv", "w", newline="") as csvfile:
+            with open("RequestedToys.csv", "w", newline="") as file:
                 fieldNames = ["Name", "Category", "Description"]
-                writer = csv.DictWriter(csvfile, fieldNames=fieldNames)
+                writer = csv.DictWriter(file, fieldNames=fieldNames)
                 writer.writeheader()
                 for letter in self._letters:
                     for toy in letter.getToys():
                         writer.writerow(toy)
+                log_action("Exported toy manufacturing data")
         except Exception as e:
             print(f"Error exporting toy manufacturing data: {e}")
